@@ -1,3 +1,8 @@
+{% extends 'thesite/base.html' %}
+
+{% block title %}Hello Everybody{% endblock %}
+
+{% block sidebar %}
 {% if pages %}
     <ul>
     {% for page in pages %}
@@ -7,3 +12,4 @@
 {% else %}
     <p>No pages are available.</p>
 {% endif %}
+{% endblock %}

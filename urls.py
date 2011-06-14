@@ -12,6 +12,8 @@ urlpatterns = patterns('',
     (r'^info/', 'thesite.views.info'),
     # experiments
     (r'^experiments/', 'thesite.views.experiments'),
+    # work
+    (r'^work/', 'thesite.views.work'),
 
     # Uncomment the admin/doc line below to enable admin documentation:
     # (r'^admin/doc/', include('django.contrib.admindocs.urls')),
